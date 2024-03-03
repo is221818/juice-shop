@@ -9,11 +9,8 @@ batch:
   fast-fail: true
         
 phases:
-  pre_build:
+  build:
     commands:
       - echo "Installing dependencies..."
       - npm install
-  build:
-    commands:
-      - npm run build
       
